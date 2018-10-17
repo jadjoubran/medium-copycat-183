@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+  color: #494949;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+}
+
+.banner {
+  background-image: url("http://unsplash.it/800x400");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 200px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.highlighted{
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #00CC77;
+  transition: background-color 400ms;
+}
+
+.highlighted:hover{
+  background-color: #72FFAA
+}
+
+.highlighted:active{
+  font-weight: bold;
+}
+
+
+/*media queries*/
+@media (max-width: 900px){
+  .container{
+    width: 700px;
+    /*background-color: red;*/
+  }
+}
+
+@media (max-width: 750px){
+  .container{
+    width: 500px;
+    /*background-color: green;*/
+  }
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 100%;
+    /*background-color: blue;*/
+  }
+}
